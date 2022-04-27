@@ -26,6 +26,8 @@ You should start by taking a look at your dataset and brainstorming which sub-ca
 
 **1. INSIGHTS FROM DATA ANALYSIS**  
 
+[Analyzing NYSE DATA Presentation](https://github.com/Damie07/BusinessAnalytics_UdacityNanodegree/blob/main/Project%202.%20Excel%20-%20Analyzing%20NYSE%20Data/%5BPresentation%5D%20Analyzing%20NYSE%20Data%20in%20Excel.pdf)  
+
 **2. PROGIT AND LOSS STATEMENT**  
 
 **3. FINANCIAL FORECASTING MODEL**
