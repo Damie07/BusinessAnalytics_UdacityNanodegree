@@ -11,7 +11,7 @@ WHERE g.name = "Rock"
 GROUP BY City
 ORDER BY Amount_Spent DESC
 
-/* QUERY 1 Which music genre generated the highest revenue? */
+/* QUERY 2 Which music genre generated the highest revenue? */
 SELECT g.Name AS Genre_Name,
        ROUND(SUM(il.Quantity * il.UnitPrice), 2) AS Amount_Spent
 FROM InvoiceLine il
@@ -20,7 +20,7 @@ JOIN Genre g ON t.GenreId = g.GenreId
 GROUP BY Genre_Name
 ORDER BY Amount_Spent DESC
 
-/* QUERY 1 What is the historical trend of rock music purchases?*/
+/* QUERY 3 What is the historical trend of rock music purchases?*/
 SELECT STRFTIME('%Y-%m', i.InvoiceDate) AS Date,
        SUM(il.Quantity * il.UnitPrice) AS Amount_Spent
 FROM Invoice i
@@ -30,7 +30,7 @@ JOIN Genre g ON g.GenreId = t.GenreId
 WHERE g.Name = "Rock"
 GROUP BY Date
 
-/* QUERY 1 What is the distribution of customers based on the total of their invoices?*/
+/* QUERY 4 What is the distribution of customers based on the total of their invoices?*/
 SELECT c.FirstName || " " || c.LastName Customer_Name,
        SUM(i.Total) AS Amount_Spent
 FROM Customer c
