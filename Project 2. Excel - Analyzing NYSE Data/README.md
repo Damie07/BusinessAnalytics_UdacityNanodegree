@@ -12,3 +12,10 @@ You should start by taking a look at your dataset and brainstorming which sub-ca
 
 <h1> MY PROJECT</h1>
 
+**1.INSIGHTS FROM DATA ANALYSIS**  
+
+**2. PROGIT AND LOSS STATEMENT**  
+
+**3. FINANCIAL FORECASTING MODEL**
+
+
